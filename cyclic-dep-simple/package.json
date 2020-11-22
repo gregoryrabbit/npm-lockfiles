@@ -6,11 +6,17 @@
   "main": "index.js",
   "module": "index.mjs",
   "dependencies": {
-    "debug": "2.0.x"
+    "debug": "2.6.9",
+    "snyk": "^1.430.0"
   },
   "engines": {
     "node": ">=8.0"
   },
   "homepage": "https://github.com/MarkGriffiths/trucolor",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "snyk": true
 }
