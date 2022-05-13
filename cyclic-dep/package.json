@@ -8,7 +8,7 @@
   "dependencies": {
     "@thebespokepixel/es-tinycolor": "^0.3.0",
     "@thebespokepixel/meta": "^0.2.2",
-    "@thebespokepixel/string": "^0.5.1",
+    "@thebespokepixel/string": "^1.0.0",
     "color-convert": "^1.9.2",
     "common-tags": "^1.8.0",
     "deep-assign": "^2.0.0",
@@ -16,11 +16,11 @@
     "lodash": "^4.17.10",
     "read-pkg-up": "^4.0.0",
     "sgr-composer": "^0.5.0",
-    "term-ng": "^0.8.1",
-    "truwrap": "^0.8.0",
+    "term-ng": "^2.0.1",
+    "truwrap": "^2.0.0",
     "update-notifier": "^2.5.0",
-    "verbosity": "^0.9.1",
-    "yargs": "^11.0.0"
+    "verbosity": "^2.0.0",
+    "yargs": "^13.2.4"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0-beta.51",
