@@ -6,7 +6,7 @@
   "main": "index.js",
   "module": "index.mjs",
   "dependencies": {
-    "debug": "2.0.x"
+    "debug": "2.6.7"
   },
   "engines": {
     "node": ">=8.0"
