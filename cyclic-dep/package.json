@@ -17,8 +17,8 @@
     "read-pkg-up": "^4.0.0",
     "sgr-composer": "^0.5.0",
     "term-ng": "^0.8.1",
-    "truwrap": "^0.8.0",
-    "update-notifier": "^2.5.0",
+    "truwrap": "^4.0.0",
+    "update-notifier": "^6.0.0",
     "verbosity": "^0.9.1",
     "yargs": "^11.0.0"
   },
