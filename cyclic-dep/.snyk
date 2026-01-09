@@ -1,0 +1,48 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - truwrap > trucolor > @thebespokepixel/string > term-ng > trucolor > lodash:
+        patched: '2026-01-09T11:32:55.403Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truwrap > trucolor > @thebespokepixel/string > term-ng > trucolor >
+          lodash
+    - truwrap > trucolor > verbosity > term-ng > trucolor > lodash:
+        patched: '2026-01-09T11:32:55.403Z'
+        id: SNYK-JS-LODASH-567746
+        path: truwrap > trucolor > verbosity > term-ng > trucolor > lodash
+    - truwrap > trucolor > @thebespokepixel/string > term-ng > truwrap > lodash:
+        patched: '2026-01-09T11:32:55.403Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truwrap > trucolor > @thebespokepixel/string > term-ng > truwrap >
+          lodash
+    - truwrap > trucolor > verbosity > term-ng > truwrap > lodash:
+        patched: '2026-01-09T11:32:55.403Z'
+        id: SNYK-JS-LODASH-567746
+        path: truwrap > trucolor > verbosity > term-ng > truwrap > lodash
+    - truwrap > trucolor > @thebespokepixel/string > term-ng > truwrap > trucolor > lodash:
+        patched: '2026-01-09T11:32:55.403Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truwrap > trucolor > @thebespokepixel/string > term-ng > truwrap >
+          trucolor > lodash
+    - truwrap > trucolor > verbosity > term-ng > truwrap > trucolor > lodash:
+        patched: '2026-01-09T11:32:55.403Z'
+        id: SNYK-JS-LODASH-567746
+        path: truwrap > trucolor > verbosity > term-ng > truwrap > trucolor > lodash
+    - truwrap > trucolor > @thebespokepixel/string > term-ng > truwrap > @thebespokepixel/n-selector > lodash:
+        patched: '2026-01-09T11:32:55.403Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truwrap > trucolor > @thebespokepixel/string > term-ng > truwrap >
+          @thebespokepixel/n-selector > lodash
+    - truwrap > trucolor > verbosity > term-ng > truwrap > @thebespokepixel/n-selector > lodash:
+        patched: '2026-01-09T11:32:55.403Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truwrap > trucolor > verbosity > term-ng > truwrap >
+          @thebespokepixel/n-selector > lodash
